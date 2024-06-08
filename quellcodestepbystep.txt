@@ -1,0 +1,28 @@
+Erklärungen der Hauptfunktionen und -bereiche
+
+1. Module importieren:
+
+- Notwendige Module für das Skript (sys, base64, json, argparse, psutil, socket und Funktionen/Klassen aus scapy.all).
+
+2. Funktion packet_handler:
+
+- Wird für jedes gesniffte Paket aufgerufen.
+- Extrahiert Informationen wie Quell- und Ziel-IP, Ports, Protokoll und Payload.
+- Gibt diese Informationen auf der Konsole aus und schreibt sie in eine JSON-Datei.
+
+3. Funktion read_saved_data:
+
+- Liest gespeicherte JSON-Daten aus einer Datei und gibt sie aus.
+
+4. Funktion list_interfaces:
+
+- Listet alle verfügbaren Netzwerkinterfaces und ihre IP- und MAC-Adressen auf.
+
+5. Funktion parse_arguments:
+
+- Parst die Kommandozeilenargumente für das Skript.
+
+6.Hauptprogramm:
+
+- Parst die Kommandozeilenargumente.
+- Führt basierend auf den Argumenten die entsprechenden Funktionen aus (Interface-Liste anzeigen, Daten lesen, Pakete sniffen).
