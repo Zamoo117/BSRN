@@ -1,15 +1,15 @@
 {
     "name": "Python Dev Container",
     "build": {
-      "dockerfile": "Dockerfile",
-      "context": "."
+        "dockerfile": "Dockerfile",
+        "context": ".devcontainer"
     },
     "settings": {
-      "terminal.integrated.shell.linux": "/bin/bash"
+        "terminal.integrated.shell.linux": "/bin/bash"
     },
-    "postCreateCommand": "pip install -r requirements.txt",
+    "postCreateCommand": "pip install --upgrade pip && pip install -r requirements.txt",
     "remoteUser": "vscode",
     "extensions": [
-      "ms-python.python"
+        "ms-python.python"
     ]
-  }  
+}
