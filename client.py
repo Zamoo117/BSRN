@@ -1,37 +1,62 @@
 import socket
-
-#Nutzer auffordern Serveradresse, Nachricht und HTTP-Methode einzugeben
-def user_input():
-  server_address = input("Connect to (hostname or IP): ")
-  message = input("Message: ")
-  method = input("Method (GET, POST, DELETE): ").upper()
-
-#Falls der Nutzer nicht TCP oder UDP als Server eingeben sollte dann wird er darauf aufgefordert es zu tun
-if server_adress not in ["TCP-Server", "UDP-Server"]:
-  print("Invalid Server address. Please enter either TCP-Server or UDP-Server.")
-  return None, None, None
-
-#Falls der Nutzer keine von den drei Methoden eingeben sollte dann wird er darauf hingewiesen es doch zutun 
-if method not in ["GET", "POST", "DELETE"]:
-  print("Invalid HTTP-method. Please enter one of the following methods: GET, POST, DELETE.")
-  return None, None, None
-
-return server_address, message, method
-
-#Auflisten der verfügbaren Services und der zugehörigen UDP/TCP Ports
-def list_services():
-  services = ["http", "https"]
-  print("Available services:")
-  for service in services:
-    try:
-      tcp_port = socket.getservbyname(service, 'tcp')
-      udp_port = socket.getservbyname(service, 'udp')
-      print(f"{service}: TCP port {tcp_port}, UDP port {udp_port}")
-    except socket.error:
-      print(f"{service}: Service not found")
+import sys
 
 def main():
-    print("Client")
+    #Eingabe der Serveradresse durch den Benutzer
+    server_address = input("Connect to (hostname or IP): ")
+
+    #Eingabe der Nachricht durch den Benutzer
+    message = input("Message: ")
+
+    #Eingabe der HTTP-Methode durch den Benutzer
+    method = input("Method (GET, POST, DELETE): ").strip().upper()
+
+    #Validierung der HTTP-Methode
+    if method not in ["GET", "POST", "DELETE"]:
+        print("Invalid HTTP-method. Please enter one of the following methods: GET, POST, DELETE.")
+        sys.exit(1)
+
+    #Eingabe des Servicenamens durch den Benutzer
+    service_name = input("Servicename (http, https): ").strip().lower()
+
+    #Umwandlung des Servicenamens in einen Port
+    try:
+        port = socket.getservbyname(service_name, 'tcp')
+    except socket.error:
+        print("Service could not be found.")
+        sys.exit(1)
+
+    #Umwandlung des Server-Hostnamens in eine IP-Adresse
+    try:
+        ip_address = socket.gethostbyname(server_address)
+    except socket.gaierror:
+        print("Hostname could not be found.")
+        sys.exit(1)
+
+    #Erstellung des Payloads basierend auf den Benutzereingaben
+    payload = f"{method} / HTTP/1.1\r\nHost: {ip_address}:{port}\r\n\r\n{message}"
+
+    #Senden des Payloads an den Loadbalancer
+    send_to_loadbalancer(ip_address, port, payload)
+
+def send_to_loadbalancer(ip_address, port, payload):
+    try:
+        #Erstellung eines TCP-Sockets
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        #Verbindung zum Loadbalancer herstellen
+        sock.connect((ip_address, port))
+        print(f"Connected to Loadbalancer: {ip_address}:{port}")
+
+        #Senden des Payloads
+        sock.sendall(payload.encode())
+
+        #Empfang der Antwort vom Loadbalancer
+        response = sock.recv(4096)
+        print("Response from Loadbalancer:")
+        print(response.decode())
+
+    except socket.error as e:
+        print(f"Socket-Error: {e}")
 
 if __name__ == "__main__":
     main()
