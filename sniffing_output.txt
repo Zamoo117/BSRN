@@ -1,0 +1,661 @@
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAQEPClrZcOk1qE0NXi4lZBfFIftq0g8/IS8R+X7KKdIeZP...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD/mkit902EwqileiZ5TjF6F38INaZ9LT/j9/dwynsKmC1...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+Payload (truncated): FwMDAS3O/3rp6FQkptG6S2vQcAzC/Goa1CjzBYFDAK/St/0P//...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 43836
+Destination IP: 20.150.122.101
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAiJe4ljGoTvyAG6QOzhNM9aWliRcq6A9HxGcLyvZTbW9oS...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAG9TzJxyHzr9eVtWHKXf5KJkuQKXd+O1NLuPf3yBpF4Zpx...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD/IkuoyBAWmEoGyNaI3cXAhw2a4/ImFOLAOL0zPrOwxNL...
+----------------------------------------
+Source IP: 20.150.122.101
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 43836
+Protocol: TCP
+Payload (truncated): FwMDAWl/tN54/QeUpfqZQuFCUJ8CwjJpChXXHrURR29oveugDl...
+----------------------------------------
+Source IP: 20.150.122.101
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 43836
+Protocol: TCP
+Payload (truncated): FwMDABayMbhXu6+cACpvNH982oOSO3a2nF6I...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 43836
+Destination IP: 20.150.122.101
+Destination Port: 443
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 43836
+Destination IP: 20.150.122.101
+Destination Port: 443
+Protocol: TCP
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAQGvi4ww9E0jPkdvQtnquAlkdpjp8Sqx04JlC26JZW1T6X...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD+KjbwhpL5N2zfvWwHKjY2z5ZAgRaZLDEfaCLiJFWV4aq...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+Payload (truncated): FwMDAS0klpOeruJWyDfatFbfzkjYxwgGYRhv3hwvQZxLpXGseE...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAG+AaIjkxaPr9eiu9JsN/0pWKHLYMrzCEtYhafy+B2A2DE...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD+ZtSpIbOjmTO9b4fYIO2gh6PtakxFQU387+kBnww0309...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+Payload (truncated): FwMDAJ0z247+Fc3yE1GiA2xjLBC1itQCTrsc36KvRI8o2dpS/N...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAF+7OlXb3g/NA8ulYPxpi2vFcAv/l2HpE6UDKiyXm8gq5I...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD9hcqT8AfVJhgwxczV8fnm4dwpG91idpGnwORiRDUITVv...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+Payload (truncated): FwMDAGturEvWcxpfptR5vZ3nvZyQGih4TTe3WsY8htowsJbQqU...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAQE6dqxDxPNFUxNBZvJSPpQqqSofsG4/3BKxKGBf2s/+aP...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD/a3jCfyxi0sMxy7muiqShfnYxH+fuEEQ7VlQ2DzUIhEI...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+Payload (truncated): FwMDAS0Lhrop9p1IY242e5eE0rKbfem/2zgT0fjV4+fDMYxYH0...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAG8stUK1rbfwE8icRY+MGenuQqwV4I+AbwGj2biA/K5Aao...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD9GNcADR4bGauMe/XTB1tQLsflZzAqJMWUXWN/hQ3zLhd...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAQFxNiVWhTaK6XA8AL5IN0vLhSYakDB6XdSwoj0YUr3FCd...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD9mKcNEM9Up9YCl+jyc0+dQ3OmOpK1riBVm396btl8oY7...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+Payload (truncated): FwMDAS2pOrj+u6mvT6/WqGqDOAIUTyuS2/eaDkl8rwZNWjMM9S...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAG9sbxIV5N7nAp8DE63SdhnLd8f7bC2CbvrympKgtKJqGw...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD9tnwljjPz09DSrKDlLbfLLKTxGxEqG0e0z9IR6cO/9+l...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): S2LmfXPruRT1KciLrIuCS/8W3hh06T3fhVEHlQAAAABwgAAAAA...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): 5XpxispPGAE0goRspqUxmxRIf+MTDzl6JgGYeoXpuy2BdLfmAa...
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): +XS3K+gU7zN1eo2qhmzKPaGPc60YBJSkMaxu6ZTzacRbKiDFjW...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): zQ+KWvgr8SHPme8pqjcxNh70MXz1OUmYAm/3U6mE4RexTKGSTb...
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 35426
+Destination IP: 168.63.129.16
+Destination Port: 53
+Protocol: UDP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 41517
+Destination IP: 168.63.129.16
+Destination Port: 53
+Protocol: UDP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 42477
+Destination IP: 168.63.129.16
+Destination Port: 53
+Protocol: UDP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 34017
+Destination IP: 168.63.129.16
+Destination Port: 53
+Protocol: UDP
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+Payload (truncated): ZteR25FwSCfERTbsLxnbUZoVSjhJq0ftHAAAAAAAAABQAAAAAA...
+----------------------------------------
+Source IP: 168.63.129.16
+Source Port: 53
+Destination IP: 172.16.5.4
+Destination Port: 35426
+Protocol: UDP
+----------------------------------------
+Source IP: 168.63.129.16
+Source Port: 53
+Destination IP: 172.16.5.4
+Destination Port: 42477
+Protocol: UDP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 52894
+Destination IP: 168.63.129.16
+Destination Port: 53
+Protocol: UDP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 47450
+Destination IP: 168.63.129.16
+Destination Port: 53
+Protocol: UDP
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+Payload (truncated): hvqzUMJTtZ28TvV0kpvc7C9HwAIUEo2+GgAAAAAAAABQAAAAAA...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): XMLei1P2cvj/940c2vI3gsUB2KYvO8NvCSEr8gAAAABYAAAAAA...
+----------------------------------------
+Source IP: 168.63.129.16
+Source Port: 53
+Destination IP: 172.16.5.4
+Destination Port: 34017
+Protocol: UDP
+----------------------------------------
+Source IP: 168.63.129.16
+Source Port: 53
+Destination IP: 172.16.5.4
+Destination Port: 52894
+Protocol: UDP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 37830
+Destination IP: 20.42.65.90
+Destination Port: 443
+Protocol: TCP
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+Payload (truncated): NTEZenft3JyFy8Oic/sVJPOsSA4yAAWNEgAAAAAAAABEAAAAAA...
+----------------------------------------
+Source IP: 168.63.129.16
+Source Port: 53
+Destination IP: 172.16.5.4
+Destination Port: 47450
+Protocol: UDP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): vtxCucplyO6GmTPTY3WiA07fMGHHIHwljnMg6gAAAABwEAAAAA...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): 0bsil7FgKEker0TLhX6u8aALA58rQCfF9TssReNPmmvdV/glx0...
+----------------------------------------
+Source IP: 168.63.129.16
+Source Port: 53
+Destination IP: 172.16.5.4
+Destination Port: 41517
+Protocol: UDP
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+Payload (truncated): FzjoukzKeNvk4/LXJp+JEzZHwAIUEo2+GgAAAAAAAABQAAAAAA...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): r9mFhCxWZ3wpRRp4U2n3nJtv2bLmIn+WbcJYrAAAAABYAAAAAA...
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+Payload (truncated): 3a1kikyPwmTK8uKxuZ/JGnYdQGi4/Db3FAAAAAAAAABEAAAAAA...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAQFPyJ6Q/ZmLvB/2dFc0R87VDT5YWvaBvqX9PGxg8AZkjo...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD9wCimMks37ffUAN8MJ7sllhg7QekG4VI0TKGQ6KWxKOl...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+Payload (truncated): FwMDAS2j7JDZMVcmNz1CM/neABAONYz4ovtG2Wjg1a+oL2bkhU...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAG+O4fo0WQxcmVPF8bRwqyy6CRTWOWDuDL+V/Ul6HuTCU4...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD93Zz80OiGdvPRnBVYYCan/4J2gToYDebmeFsuInXp2n8...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): ra3CkbCBib+4L5F63tXJ92GTUx23/e3W2MgdlQAAAABYAQAAAA...
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+Payload (truncated): Fe/7tDwEsSFhkbTeiPQ/mpkxa2sZ+nd+BQAAAAAAAAD8AQAAAA...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+Payload (truncated): Nn9a1X5Qc80SDYjKWHmjYPX46GNDGvl6i2brwAAAAABYAQAAAA...
+----------------------------------------
+Source IP: 20.209.48.165
+Source Port: 445
+Destination IP: 172.16.5.4
+Destination Port: 59682
+Protocol: TCP
+Payload (truncated): O0/1rp+idhPhjONiCcymCqAxa2sZ+nd+BQAAAAAAAAC0AQAAAA...
+----------------------------------------
+Source IP: 20.42.65.90
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 37830
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 37830
+Destination IP: 20.42.65.90
+Destination Port: 443
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 37830
+Destination IP: 20.42.65.90
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FgMBAeABAAHcAwNt1aPb0EdBu2FbzAayWKQaOWlGhMnBsznSU2...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 59682
+Destination IP: 20.209.48.165
+Destination Port: 445
+Protocol: TCP
+----------------------------------------
+Source IP: 20.42.65.90
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 37830
+Protocol: TCP
+Payload (truncated): FgMDAFgCAABUAwPPIa105ZphEb4djAIeZbiRwqIRFnq7jF4Hng...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 37830
+Destination IP: 20.42.65.90
+Destination Port: 443
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 37830
+Destination IP: 20.42.65.90
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FAMDAAEBFgMDAiEBAAIdAwNt1aPb0EdBu2FbzAayWKQaOWlGhM...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAbGB3TlsO8ftK0VZRijBYK9B3VaVVkqGsJrZxfZONX66t6...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD/X+2qtVnNDur1uX+k8tjTMZUocbdQ8hzhCzDGmaQjPS4...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+Payload (truncated): FwMDAb3r+reTwHusuAdYvw5ZR2P+2qFioltFRMcoYaWs33M4+b...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAG8zH9nPCnP9GdoeeofO54fbiLoEUMkV+8MRF0jpsSgzbk...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD8VMeeMV4VFkirbF1Ug9DzjD7hBAAg0xTspjfgLBZfZSB...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------
+Source IP: 20.42.65.90
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 37830
+Protocol: TCP
+Payload (truncated): FgMDALsCAAC3AwNrzcZ3i+qULySDnhYkxASMuRwVWUBcS4mn1n...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 37830
+Destination IP: 20.42.65.90
+Destination Port: 443
+Protocol: TCP
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 37830
+Destination IP: 20.42.65.90
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAEVMe/4Fe+SX52Mt48Cv+JJ3MWgOfdYbbIntXE02s7ueE4...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAbEYwNtZiaMJGwqQMsshm43GShQbnJGELPBTZBQw7NJAe4...
+----------------------------------------
+Source IP: 172.16.5.4
+Source Port: 54226
+Destination IP: 20.103.221.187
+Destination Port: 443
+Protocol: TCP
+Payload (truncated): FwMDAD8Bx8apGHXIDk6gme2pbCNackHoH/5AHmS5ieTCaBzwvJ...
+----------------------------------------
+Source IP: 20.103.221.187
+Source Port: 443
+Destination IP: 172.16.5.4
+Destination Port: 54226
+Protocol: TCP
+----------------------------------------

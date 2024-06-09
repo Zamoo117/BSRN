@@ -27,7 +27,11 @@ Ziel: Erstellen eines einfachen Netzwerk-Sniffers, welcher Netzwerkpakete erfass
      ```
    - Gespeicherte Daten anzeigen:
      ```bash
-     python netzwerkSniffer.py --read
+     sudo python netzwerkSniffer.py --read
+     ```
+   - Gespeicherte Daten exportieren
+     ```bash
+     psudo python netzwerkSniffer.py -i eth0 -c 100 > sniffing_output.txt
      ```
 
 3. Projektsetup:
