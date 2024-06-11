@@ -27,7 +27,7 @@ class SimpleHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
                 def run(server_class=http.server.HTTPServer,handler_class=SimpleHTTPRequestHandler):
                     parser= argparse.ArgumentParser(description='Start the TCP server.')
                     parser.add_argument('--host',default='localhost',help='Hostname to bind to')
-                    parser.add_argument('--port',type=int,default=8080,help=Port to bind to')
+                    parser.add_argument('--port',type=int,default=8080,help='Port to bind to')
                     parser.add_argument('--logfile',default='server.log',help='Log file path')
                     args= parser.parse_args()
 
