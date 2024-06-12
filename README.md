@@ -19,11 +19,11 @@ Ziel: Erstellen eines einfachen Netzwerk-Sniffers, welcher Netzwerkpakete erfass
      ```
    - Pakete sniffen mit verkürzter Payload:
      ```bash
-     sudo python netzwerkSniffer.py -i eth0 -c 100
+     sudo python netzwerkSniffer.py -i lo -c 100
      ```
    - Pakete sniffen mit detaillierter Payload:
      ```bash
-     sudo python netzwerkSniffer.py -i eth0 -c 100 --detailed
+     sudo python netzwerkSniffer.py -i lo -c 100 --detailed
      ```
    - Gespeicherte Daten anzeigen:
      ```bash
@@ -31,7 +31,7 @@ Ziel: Erstellen eines einfachen Netzwerk-Sniffers, welcher Netzwerkpakete erfass
      ```
    - Gespeicherte Daten exportieren
      ```bash
-     sudo python netzwerkSniffer.py -i eth0 -c 100 > sniffing_output.txt
+     sudo python netzwerkSniffer.py -i lo -c 10 > ohne_tls.txt
      ```
 
      Wichtigste TLS Befehle:
