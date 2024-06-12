@@ -19,11 +19,11 @@ Ziel: Erstellen eines einfachen Netzwerk-Sniffers, welcher Netzwerkpakete erfass
      ```
    - Pakete sniffen mit verkürzter Payload:
      ```bash
-     sudo /workspaces/BSRN/.venv/bin/python /workspaces/BSRN/netzwerkSniffer.py -i "interfacehiereingeben" -c 100
+     sudo python netzwerkSniffer.py -i eth0 -c 100
      ```
    - Pakete sniffen mit detaillierter Payload:
      ```bash
-     sudo /workspaces/BSRN/.venv/bin/python /workspaces/BSRN/netzwerkSniffer.py -i "interfacehiereingeben" -c 100 --detailed
+     sudo python netzwerkSniffer.py -i eth0 -c 100 --detailed
      ```
    - Gespeicherte Daten anzeigen:
      ```bash
@@ -31,8 +31,24 @@ Ziel: Erstellen eines einfachen Netzwerk-Sniffers, welcher Netzwerkpakete erfass
      ```
    - Gespeicherte Daten exportieren
      ```bash
-     psudo python netzwerkSniffer.py -i eth0 -c 100 > sniffing_output.txt
+     sudo python netzwerkSniffer.py -i eth0 -c 100 > sniffing_output.txt
      ```
+
+     Wichtigste TLS Befehle:
+
+   - Mit NON anfangen:
+
+     sudo python non_tls_server.py
+
+   - dann Sniffer starten:
+
+     sudo python netzwerkSniffer.py -i eth0 -c 100 -d > output_without_tls.json
+
+   - Dann NON TLS Client starten
+
+     python non_tls_client.py
+
+   - Dasselbe dann mit TLS also "non" löschen
 
 3. Projektsetup:
 
