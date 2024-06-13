@@ -37,6 +37,6 @@ class SimpleHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
                     logging.info(f'Starting httpd server on{args.host}:{args.port}')
                     httpd.serve_forever()
 
-                    if__name__== '__main__':
+                    if__name__== '__main__': # type: ignore
                     run()
 
