@@ -15,38 +15,38 @@ Ziel: Erstellen eines einfachen Netzwerk-Sniffers, welcher Netzwerkpakete erfass
 2. Wichtige Befehle:
    - Interfaces auflisten:
      ```bash
-     python netzwerkSniffer.py --list
+     python Netzwerksniffer/netzwerkSniffer.py --list
      ```
    - Pakete sniffen mit verkürzter Payload:
      ```bash
-     sudo python netzwerkSniffer.py -i lo -c 100
+     sudo python Netzwerksniffer/netzwerkSniffer.py -i lo -c 100
      ```
    - Pakete sniffen mit detaillierter Payload:
      ```bash
-     sudo python netzwerkSniffer.py -i lo -c 100 --detailed
+     sudo python Netzwerksniffer/netzwerkSniffer.py -i lo -c 100 --detailed
      ```
    - Gespeicherte Daten anzeigen:
      ```bash
-     sudo python netzwerkSniffer.py --read
+     sudo python Netzwerksniffer/netzwerkSniffer.py --read
      ```
    - Gespeicherte Daten exportieren
      ```bash
-     sudo python netzwerkSniffer.py -i lo -c 10 > ohne_tls.txt
+     sudo python Netzwerksniffer/netzwerkSniffer.py -i lo -c 10 > ohne_tls.txt
      ```
 
      Wichtigste TLS Befehle:
 
    - Mit NON anfangen:
 
-     sudo python non_tls_server.py
+     sudo python Netzwerksniffer/non_tls_server.py
 
    - dann Sniffer starten:
 
-     sudo python netzwerkSniffer.py -i eth0 -c 100 -d > output_without_tls.json
+     sudo python Netzwerksniffer/netzwerkSniffer.py -i eth0 -c 100 -d > output_without_tls.json
 
    - Dann NON TLS Client starten
 
-     python non_tls_client.py
+     python Netzwerksniffer/non_tls_client.py
 
    - Dasselbe dann mit TLS also "non" löschen
 
