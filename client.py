@@ -1,5 +1,5 @@
-import socket
-import sys
+import socket  # Importieren des Socket-Moduls für die Netzwerkkommunikation
+import sys  # Importieren des Sys-Moduls für systembezogene Funktionen
 
 def main():
     # Eingabe der Serveradresse durch den Benutzer
@@ -11,7 +11,7 @@ def main():
     # Validierung des Servicetyps
     if service_type not in ["TCP-SERVER", "UDP-SERVER"]:
         print("Invalid service type. Please enter either 'TCP-Server' or 'UDP-Server'.")
-        sys.exit(1)
+        sys.exit(1)  # Programm beenden, wenn der Servicetyp ungültig ist
 
     # Eingabe der Nachricht durch den Benutzer
     message = input("Message: ")
@@ -22,14 +22,14 @@ def main():
     # Validierung der HTTP-Methode
     if method not in ["GET", "POST", "DELETE"]:
         print("Invalid HTTP method. Please enter one of the following methods: GET, POST, DELETE.")
-        sys.exit(1)
+        sys.exit(1)  # Programm beenden, wenn die HTTP-Methode ungültig ist
 
     # Umwandlung des Server-Hostnamens in eine IP-Adresse
     try:
         ip_address = socket.gethostbyname(server_address)
     except socket.error:
         print("Hostname could not be found.")
-        sys.exit(1)
+        sys.exit(1)  # Programm beenden, wenn der Hostname nicht gefunden werden kann
 
     # Erstellung des Payloads basierend auf den Benutzereingaben
     if method == "POST":
@@ -72,7 +72,7 @@ def send_to_loadbalancer_tcp(ip_address, port, payload):
     except socket.error as e:
         print(f"Socket-Error: {e}")
     finally:
-        sock.close()
+        sock.close()  # Schließen des Sockets
 
 def send_to_loadbalancer_udp(ip_address, port, payload):
     try:
@@ -91,7 +91,7 @@ def send_to_loadbalancer_udp(ip_address, port, payload):
     except socket.error as e:
         print(f"Socket-Error: {e}")
     finally:
-        sock.close()
+        sock.close()  # Schließen des Sockets
 
 if __name__ == "__main__":
-    main()
+    main()  # Aufruf der main-Funktion, um das Programm zu starten
