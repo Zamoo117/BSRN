@@ -33,10 +33,10 @@ class SimpleHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
 
                     logging.basicConfig(filename=args.logfile,level=logging.INFO)
                     server_address= (args.host,args.port)
-                    httpd=server_class(server_adress,handler_class)
+                    httpd=server_class(server_address,handler_class)
                     logging.info(f'Starting httpd server on{args.host}:{args.port}')
                     httpd.serve_forever()
 
-                    if__name__== '__main__': # type: ignore
+                if __name__== "__main__": # type: ignore
                     run()
 

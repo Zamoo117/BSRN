@@ -64,7 +64,7 @@ def start_load_balancer(tcp_port, udp_port, tcp_backend_host, tcp_backend_port, 
         logger.info(f"Accepted connection from {address}")
         threading.Thread(target=handle_tcp, args=(client_socket, address, tcp_backend_host, tcp_backend_port)).start()
 
-if __name__ == "__main__":
+if __name__ == "__start_load_loadbalancer__":
     tcp_port = 8001
     udp_port = 8000
     tcp_backend_host = '127.0.0.1'
@@ -73,4 +73,3 @@ if __name__ == "__main__":
     udp_backend_port = 9001
 
     start_load_balancer(tcp_port, udp_port, tcp_backend_host, tcp_backend_port, udp_backend_host, udp_backend_port)
-    

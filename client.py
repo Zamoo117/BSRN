@@ -2,8 +2,16 @@ import socket
 import sys
 
 def main():
+    #Eigabe des Services durch den Benutzer
+    #server_name = input("Connect to (TCP/UDP): ").strip().lower()
+
+    #Validierung des Servers
+    #if server_name not in ["TCP", "UDP", "tcp", "udp",]:
+        #print("Invalid HTTP-method. Please enter one of the following services correctly: TCP-Server, UDP-Server.")
+        #sys.exit(1)
+
     #Eingabe der Serveradresse durch den Benutzer
-    server_address = input("Connect to (hostname or IP): ")
+    server_address = input("IP-Address: ")
 
     #Eingabe der Nachricht durch den Benutzer
     message = input("Message: ")
@@ -23,13 +31,13 @@ def main():
     try:
         port = socket.getservbyname(service_name, 'tcp')
     except socket.error:
-        print("Service could not be found.")
-        sys.exit(1)
+            print("Service could not be found.")
+            sys.exit(1)
 
     #Umwandlung des Server-Hostnamens in eine IP-Adresse
     try:
         ip_address = socket.gethostbyname(server_address)
-    except socket.gaierror:
+    except socket.error:
         print("Hostname could not be found.")
         sys.exit(1)
 
@@ -37,9 +45,9 @@ def main():
     payload = f"{method} / HTTP/1.1\r\nHost: {ip_address}:{port}\r\n\r\n{message}"
 
     #Senden des Payloads an den Loadbalancer
-    send_to_loadbalancer(ip_address, port, payload)
+    send_to_Loadbalancer(ip_address, port, payload)
 
-def send_to_loadbalancer(ip_address, port, payload):
+def send_to_Loadbalancer(ip_address, port, payload):
     try:
         #Erstellung eines TCP-Sockets
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
