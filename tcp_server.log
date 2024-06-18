@@ -1,0 +1,121 @@
+INFO:root:Starting httpd server on localhost:9000
+INFO:root:GET request,
+Path: /
+Headers:
+Host: 127.0.0.1
+
+
+
+INFO:root:Starting httpd server on localhost:9000
+INFO:root:GET request,
+Path: /
+Headers:
+Host: 127.0.0.1
+
+
+
+INFO:root:Starting httpd server on localhost:9000
+INFO:root:Starting httpd server on localhost:9000
+ERROR:root:POST request missing Content-Length header
+INFO:root:Starting httpd server on localhost:9000
+INFO:root:POST request,
+Path: /
+Headers:
+Host: 127.0.0.1
+Content-Length: 6
+Content-Type: text/plain
+
+
+
+Body:
+Dounia
+
+INFO:root:POST request,
+Path: /
+Headers:
+Host: 127.0.0.1
+Content-Length: 16
+Content-Type: text/plain
+
+
+
+Body:
+Dounia part zwei
+
+INFO:root:GET request,
+Path: /
+Headers:
+Host: 127.0.0.1
+
+
+
+INFO:root:Starting httpd server on localhost:9000
+INFO:root:GET request,
+Path: /
+Headers:
+Host: 127.0.0.1
+
+
+
+INFO:root:Starting httpd server on localhost:9000
+INFO:root:Starting httpd server on localhost:9000
+INFO:root:GET request,
+Path: /
+Headers:
+Host: 127.0.0.1
+
+
+
+INFO:root:GET request,
+Path: /
+Headers:
+Host: 127.0.0.1
+
+
+
+INFO:root:POST request,
+Path: /
+Headers:
+Host: 127.0.0.1
+Content-Length: 20
+Content-Type: text/plain
+
+
+
+Body:
+Zamir schaut Fußbal
+
+INFO:root:Starting httpd server on localhost:9000
+INFO:root:POST request,
+Path: /
+Headers:
+Host: 127.0.0.1
+Content-Length: 20
+Content-Type: text/plain
+
+
+
+Body:
+Zamir schaut Fußbal
+
+INFO:root:DELETE request,
+Path: /
+Headers:
+Host: 127.0.0.1
+
+
+
+INFO:root:DELETE request,
+Path: /
+Headers:
+Host: 127.0.0.1
+
+
+
+INFO:root:DELETE request,
+Path: /
+Headers:
+Host: 127.0.0.1
+
+
+
