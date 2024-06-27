@@ -1,19 +1,19 @@
 {
-    "name": "Python Dev Container",
+    "name": "Python Dev Container",  // Name des Dev Containers
     "build": {
-        "dockerfile": "Dockerfile",
-        "context": ".."
+        "dockerfile": "Dockerfile",  // Verweist auf die Dockerfile, die für den Build verwendet wird
+        "context": ".."  // Der Kontext für den Docker-Build, hier wird das übergeordnete Verzeichnis verwendet
     },
-    "postCreateCommand": "pip install -r /workspace/requirements.txt",
-    "remoteUser": "vscode",
+    "postCreateCommand": "pip install -r /workspace/requirements.txt",  // Befehl, der nach dem Erstellen des Containers ausgeführt wird, hier werden die Abhängigkeiten aus der requirements.txt installiert
+    "remoteUser": "vscode",  // Der Benutzer, der im Container verwendet wird, hier "vscode"
     "customizations": {
         "vscode": {
             "settings": {
-                "terminal.integrated.shell.linux": "/bin/bash"
+                "terminal.integrated.shell.linux": "/bin/bash"  // Einstellung für das integrierte Terminal in VSCode, hier wird die Bash-Shell verwendet
             },
             "extensions": [
-                "ms-python.python",
-                "ms-azuretools.vscode-docker"
+                "ms-python.python",  // VSCode-Erweiterung für Python-Unterstützung
+                "ms-azuretools.vscode-docker"  // VSCode-Erweiterung für Docker-Unterstützung
             ]
         }
     }

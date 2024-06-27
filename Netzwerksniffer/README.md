@@ -5,7 +5,7 @@ Ziel: Erstellen eines einfachen Netzwerk-Sniffers, welcher Netzwerkpakete erfass
 
 // Kurze Zusammenfassung der wichtigsten Punkte:
 
-### Zusammenfassung
+Zusammenfassung
 
 1. Projektstruktur und Dateien:
    - `netzwerkSniffer.py`: Hauptskript für das Sniffen und die Verarbeitung von Netzwerkpaketen.
