@@ -13,26 +13,31 @@ Zusammenfassung
    - `README.md`: Dokumentation zur Installation und Nutzung des Projekts.
 
 2. Wichtige Befehle:
+
+   - Scapy installieren, da es irgendwie trotz Requirements Datei nicht installiert wird
+   
+      pip install scapy
+
    - Interfaces auflisten:
-     ```bash
+     
      python Netzwerksniffer/netzwerkSniffer.py --list
-     ```
+     
    - Pakete sniffen mit verkürzter Payload:
-     ```bash
+     
      sudo python Netzwerksniffer/netzwerkSniffer.py -i lo -c 100
-     ```
+    
    - Pakete sniffen mit detaillierter Payload:
-     ```bash
+     
      sudo python Netzwerksniffer/netzwerkSniffer.py -i lo -c 100 --detailed
-     ```
+     
    - Gespeicherte Daten anzeigen:
-     ```bash
+     
      sudo python Netzwerksniffer/netzwerkSniffer.py --read
-     ```
+     
    - Gespeicherte Daten exportieren
-     ```bash
+     
      sudo python Netzwerksniffer/netzwerkSniffer.py -i lo -c 10 > ohne_tls.txt
-     ```
+     
 
      Wichtigste TLS Befehle:
 
@@ -52,5 +57,4 @@ Zusammenfassung
 
 3. Projektsetup:
 
-```bash
 pip install -r requirements.txt
