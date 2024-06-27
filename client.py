@@ -3,7 +3,7 @@ import sys  # Importieren des Sys-Moduls für systembezogene Funktionen
 
 def main():
     # Eingabe der Serveradresse durch den Benutzer
-    server_address = input("IP-Address: ")
+    server_address = input("Hostname or IP-Address: ")
 
     # Eingabe des Servicetyps durch den Benutzer
     service_type = input("Connect to (TCP-Server, UDP-Server): ").strip().upper()
@@ -65,14 +65,14 @@ def send_to_loadbalancer_tcp(ip_address, port, payload):
         sock.sendall(payload.encode())
 
         # Empfang der Antwort vom Loadbalancer
-        response = sock.recv(4096)
+        response = sock.recv(1024)
         print("Response from Loadbalancer:")
         print(response.decode())
 
     except socket.error as e:
         print(f"Socket-Error: {e}")
     finally:
-        sock.close()  # Schließen des Sockets
+        sock.close() # Schließen des Sockets
 
 def send_to_loadbalancer_udp(ip_address, port, payload):
     try:
@@ -84,7 +84,7 @@ def send_to_loadbalancer_udp(ip_address, port, payload):
         print(f"Sent data to Loadbalancer: {ip_address}:{port}")
 
         # Empfang der Antwort vom Loadbalancer
-        response, _ = sock.recvfrom(4096)
+        response, _ = sock.recvfrom(1024)
         print("Response from Loadbalancer:")
         print(response.decode())
 
