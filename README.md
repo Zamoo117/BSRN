@@ -30,30 +30,30 @@ Zusammenfassung
      
    - Pakete sniffen mit verkürzter Payload:
      
-     sudo python netzwerkSniffer.py -i lo -c 100
+     sudo -E python netzwerkSniffer.py -i lo -c 100
     
    - Pakete sniffen mit detaillierter Payload:
      
-     sudo python netzwerkSniffer.py -i lo -c 100 --detailed
+     sudo -E python netzwerkSniffer.py -i lo -c 100 --detailed
      
    - Gespeicherte Daten anzeigen:
      
-     sudo python netzwerkSniffer.py --read
+     sudo -E python netzwerkSniffer.py --read
      
    - Gespeicherte Daten exportieren
      
-     sudo python netzwerkSniffer.py -i lo -c 10 > ohne_tls.txt
+     sudo -E python netzwerkSniffer.py -i lo -c 10 > sniffidySniffSniff.txt
      
 
      Wichtigste TLS Befehle:
 
    - Mit NON anfangen:
 
-     sudo python non_tls_server.py
+     sudo -E python non_tls_server.py
 
    - dann Sniffer starten:
 
-     sudo python netzwerkSniffer.py -i eth0 -c 100 -d > output_without_tls.json
+     sudo -E python netzwerkSniffer.py -i eth0 -c 100 -d > output_without_tls.json
 
    - Dann NON TLS Client starten
 
