@@ -7,6 +7,12 @@ Ziel: Erstellen eines einfachen Netzwerk-Sniffers, welcher Netzwerkpakete erfass
 
 Zusammenfassung
 
+0. Schritte falls Codespaces nicht Programme automatisch installiert:
+   - sudo /home/codespace/.python/current/bin/pip install psutil
+   - sudo /home/codespace/.python/current/bin/python -m pip install psutil
+   - python -m pip show psutil
+
+
 1. Projektstruktur und Dateien:
    - `netzwerkSniffer.py`: Hauptskript für das Sniffen und die Verarbeitung von Netzwerkpaketen.
    - `requirements.txt`: Listet die benötigten Python-Pakete (`scapy`, `psutil`) auf.
@@ -20,38 +26,38 @@ Zusammenfassung
 
    - Interfaces auflisten:
      
-     python Netzwerksniffer/netzwerkSniffer.py --list
+     python netzwerkSniffer.py --list
      
    - Pakete sniffen mit verkürzter Payload:
      
-     sudo python Netzwerksniffer/netzwerkSniffer.py -i lo -c 100
+     sudo python netzwerkSniffer.py -i lo -c 100
     
    - Pakete sniffen mit detaillierter Payload:
      
-     sudo python Netzwerksniffer/netzwerkSniffer.py -i lo -c 100 --detailed
+     sudo python netzwerkSniffer.py -i lo -c 100 --detailed
      
    - Gespeicherte Daten anzeigen:
      
-     sudo python Netzwerksniffer/netzwerkSniffer.py --read
+     sudo python netzwerkSniffer.py --read
      
    - Gespeicherte Daten exportieren
      
-     sudo python Netzwerksniffer/netzwerkSniffer.py -i lo -c 10 > ohne_tls.txt
+     sudo python netzwerkSniffer.py -i lo -c 10 > ohne_tls.txt
      
 
      Wichtigste TLS Befehle:
 
    - Mit NON anfangen:
 
-     sudo python Netzwerksniffer/non_tls_server.py
+     sudo python non_tls_server.py
 
    - dann Sniffer starten:
 
-     sudo python Netzwerksniffer/netzwerkSniffer.py -i eth0 -c 100 -d > output_without_tls.json
+     sudo python netzwerkSniffer.py -i eth0 -c 100 -d > output_without_tls.json
 
    - Dann NON TLS Client starten
 
-     python Netzwerksniffer/non_tls_client.py
+     python non_tls_client.py
 
    - Dasselbe dann mit TLS also "non" löschen
 

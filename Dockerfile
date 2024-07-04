@@ -30,3 +30,6 @@ RUN pip --version
 
 # Ausgabe der installierten Python-Pakete
 RUN pip list
+
+# Standardmäßige Befehlsausführung, um den Container aktiv zu halten
+CMD ["sleep", "infinity"]
