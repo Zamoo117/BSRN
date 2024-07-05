@@ -49,7 +49,7 @@ Zusammenfassung
 
    - Mit NON anfangen:
 
-     sudo -E python non_tls_server.py
+     sudo -E python http_server.py
 
    - dann Sniffer starten:
 
@@ -57,7 +57,7 @@ Zusammenfassung
 
    - Dann NON TLS Client starten
 
-     python non_tls_client.py
+     python http_client.py
 
    - Dasselbe dann mit TLS also "non" löschen
 
