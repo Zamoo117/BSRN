@@ -53,6 +53,7 @@ Zusammenfassung
 
    - dann Sniffer starten:
 
+     sudo -E python netzwerkSniffer.py -i eth0 -c 100 -d > output_with_tls.json
      sudo -E python netzwerkSniffer.py -i eth0 -c 100 -d > output_without_tls.json
 
    - Dann NON TLS Client starten
